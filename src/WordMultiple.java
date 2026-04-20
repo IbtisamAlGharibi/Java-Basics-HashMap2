@@ -1,7 +1,11 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class WordMultiple {
     public static void main(String[] args){
 
         String[] array = {"a", "b", "a", "c", "b"};
+        Map<String, Integer> wordMultiple = new HashMap<>();
 
     }
 }
