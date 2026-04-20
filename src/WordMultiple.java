@@ -7,5 +7,7 @@ public class WordMultiple {
         String[] array = {"a", "b", "a", "c", "b"};
         Map<String, Integer> wordMultiple = new HashMap<>();
 
+        String result = "";
+
     }
 }
