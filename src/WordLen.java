@@ -10,5 +10,7 @@ public class WordLen {
         for (String arr : array){
             wordLen.put(arr,arr.length());
         }
+
+        System.out.println(wordLen);
     }
 }
