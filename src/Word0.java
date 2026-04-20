@@ -9,5 +9,7 @@ public class Word0 {
             word0.put(arr,0);
         }
         System.out.println(word0);
+
+
     }
 }
