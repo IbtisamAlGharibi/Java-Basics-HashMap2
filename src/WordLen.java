@@ -6,5 +6,9 @@ public class WordLen {
 
         String[] array={"this", "and", "that", "and"};
         Map<String,Integer> wordLen = new HashMap<>();
+
+        for (String arr : array){
+            wordLen.put(arr,arr.length());
+        }
     }
 }
