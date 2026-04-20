@@ -4,12 +4,25 @@ import java.util.Map;
 public class WordAppend {
     public static void main(String[] args){
         String[] array = {"a", "b", "a"};
-        Map<String,String > wordAppend = new HashMap<>();
+        Map<String, Integer> wordAppend = new HashMap<>();
 
-        int count = 0;
-        for (int i =0; i< array.length;i++) {
+        String result = "";
+        for (int i = 0; i < array.length; i++) {
 
+            String key = array[i];
+
+            if (wordAppend.containsKey(key)) {
+                wordAppend.put(key, wordAppend.get(key) + 1);
+            } else {
+                wordAppend.put(key, 1);
+            }
+
+            if (wordAppend.get(key) % 2 == 0) {
+                result = result + key;
+            }
         }
+
+        System.out.println(result);
 
     }
 }
