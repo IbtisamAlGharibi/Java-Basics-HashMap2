@@ -6,5 +6,8 @@ public class WordAppend {
         String[] array = {"a", "b", "a"};
         Map<String,String > wordAppend = new HashMap<>();
 
+        int count = 0;
+
+
     }
 }
