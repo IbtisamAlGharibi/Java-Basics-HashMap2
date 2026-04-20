@@ -9,5 +9,10 @@ public class WordMultiple {
 
         String result = "";
 
+        for (int i = 0; i < array.length; i++) {
+
+
+        }
+
     }
 }
