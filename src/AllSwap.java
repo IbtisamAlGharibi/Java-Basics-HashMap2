@@ -6,6 +6,14 @@ public class AllSwap {
         String[] array = {"ab", "ac"};
         Map<String, Integer> allSwap = new HashMap<>();
 
+        for (int i = 0; i < array.length; i++) {
+
+
+        }
+
+
 
     }
 }
+
+
