@@ -4,6 +4,7 @@ import java.util.Map;
 public class Word0 {
     public static void main(String[] args){
         String[] array={"a","b","c","d"};
+        Map<String,Integer> word0 = new HashMap<>();
 
     }
 }
