@@ -8,5 +8,9 @@ public class FirstSwap {
 
         Map<String, Integer> firstSwap = new HashMap<>();
 
+        for (int i = 0; i < array.length; i++) {
+
+
+        }
     }
 }
