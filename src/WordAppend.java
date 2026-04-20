@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class WordAppend {
     public static void main(String[] args){
-        String[] array = {"a", "b", "a"};
+        String[] array = {"a", "b", "a", "c", "a", "d", "a"};
         Map<String, Integer> wordAppend = new HashMap<>();
 
         String result = "";
@@ -17,7 +17,7 @@ public class WordAppend {
                 wordAppend.put(key, 1);
             }
 
-            if (wordAppend.get(key) % 2 == 0) {
+            if (wordAppend.get(key) >= 2 ) {
                 result = result + key;
             }
         }
