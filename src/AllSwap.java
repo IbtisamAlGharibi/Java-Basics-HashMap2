@@ -29,6 +29,8 @@ public class AllSwap {
             System.out.print(array[i] + " ");
         }
 
+
+
     }
 }
 
