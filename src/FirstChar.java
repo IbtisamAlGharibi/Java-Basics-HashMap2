@@ -22,6 +22,8 @@ public class FirstChar {
         }
         System.out.println(firstChar);
 
+
+
     }
 
 }
