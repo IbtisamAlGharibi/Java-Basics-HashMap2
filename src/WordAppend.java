@@ -7,7 +7,9 @@ public class WordAppend {
         Map<String,String > wordAppend = new HashMap<>();
 
         int count = 0;
+        for (int i =0; i< array.length;i++) {
 
+        }
 
     }
 }
