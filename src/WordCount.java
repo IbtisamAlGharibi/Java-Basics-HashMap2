@@ -6,7 +6,9 @@ public class WordCount {
         String[] array = {"a", "b", "a", "c", "b"};
         Map<String,Integer > wordCount = new HashMap<>();
 
-        for (String arr : array){
+        for (int i =0; i< array.length;i++){
+
+
 
         }
     }
