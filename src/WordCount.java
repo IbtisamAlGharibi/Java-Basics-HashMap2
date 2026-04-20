@@ -8,8 +8,14 @@ public class WordCount {
 
         for (int i =0; i< array.length;i++){
 
+            String key = array[i];
 
+            if (wordCount.containsKey(key)){
+                wordCount.put(key,wordCount.get(key)+1);
+            }else {
+                wordCount.put(key,1);
 
+            }
         }
     }
 
