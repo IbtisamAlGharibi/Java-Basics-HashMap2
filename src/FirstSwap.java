@@ -32,5 +32,6 @@ public class FirstSwap {
             System.out.print(array[i] + " ");
         }
 
+
     }
 }
