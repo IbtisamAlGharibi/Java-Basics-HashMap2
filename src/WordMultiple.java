@@ -18,6 +18,7 @@ public class WordMultiple {
                 wordMultiple.put(key, false);
             }
         }
+        System.out.println(wordMultiple);
 
     }
 }
